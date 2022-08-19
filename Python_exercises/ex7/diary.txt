@@ -1,0 +1,12 @@
+19-08-2022 09:46:20 
+19-08-2022 09:47:55 8
+19-08-2022 09:48:10 kjoi
+19-08-2022 09:49:37 
+19-08-2022 09:50:42 /bin/python3 /home/user/Documents/DCI_CODE/Python_exercises/ex7/my_journal.py
+19-08-2022 09:55:21 /bin/python3 /home/user/Documents/DCI_CODE/Python_exercises/ex7/my_journal.py
+19-08-2022 09:55:55 /bin/python3 /home/user/Documents/DCI_CODE/Python_exercises/ex7/my_journal.py
+19-08-2022 10:02:24 /bin/python3 /home/user/Documents/DCI_CODE/Python_exercises/ex7/my_journal.py
+19-08-2022 10:02:45 test
+19-08-2022 10:02:55 /bin/python3 /home/user/Documents/DCI_CODE/Python_exercises/ex7/my_journal.py
+19-08-2022 10:03:29 /bin/python3 /home/user/Documents/DCI_CODE/Python_exercises/ex7/my_journal.py
+19-08-2022 10:15:12 zui
