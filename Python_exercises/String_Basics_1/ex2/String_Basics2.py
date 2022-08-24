@@ -33,9 +33,40 @@ text = "Berlin is surrounded by the State of Brandenburg and contiguous with Pot
 # Be careful to convert the integer into a string with str()
 
 print("B appears: " + str(text.count("B")) + " times")
-"""
+
 # Task 5
+
+from re import T
+
 
 text = "Berlin straddles the banks of the Spree, which flows into the Havel (a tributary of the Elbe) in the western borough of Spandau."
 
 text[-10:]
+
+# Task 6
+
+text = "---Python programming---"
+
+# Removing character from string with using replace()
+
+text = text.replace("---", " ")
+print(text)
+
+
+username = input("Choose a username:")
+final_username = username.replace("_", "")
+
+print("Your username is:" + final_username)
+"""
+# Removing multiple characters using replace() in a loop
+
+username = input("Choose a username:")
+disallowed_characters = "._!"
+
+for character in disallowed_characters:
+    username = username.replace(character,"")
+
+print("Your username is:" + username)
+
+# Task 7
+
