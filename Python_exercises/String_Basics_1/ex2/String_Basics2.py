@@ -22,12 +22,20 @@ text[-1]
 
 text[:3].upper()
 
-"""
+
 
 # Task 4
 
 text = "Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital"
 
-# Using the find() function
+# Using the count() function
+
+# Be careful to convert the integer into a string with str()
 
 print("B appears: " + str(text.count("B")) + " times")
+"""
+# Task 5
+
+text = "Berlin straddles the banks of the Spree, which flows into the Havel (a tributary of the Elbe) in the western borough of Spandau."
+
+text[-10:]
