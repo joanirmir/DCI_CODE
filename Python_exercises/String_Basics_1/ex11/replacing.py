@@ -10,9 +10,9 @@ story = "A dogmatic dog buys dogecoin to become rich and buy hotdogs every day."
 
 new_string = (re.sub(r"\bdog\b", "cat", story))
 
-print(new_string) """
+print(new_string) 
 
-# Different way
+# Different way using replace function and paying attention to space
 
 text = "A dogmatic dog buys dogecoin to become rich and buy hotdogs every day."
 
@@ -20,6 +20,8 @@ word = text.replace(" dog ", " cat ")
 print(word)
 
 new = text.replace(" dog ", " cat ")
-print(f"{new}")
+print(f"{new}")"""
 
-print(f"{text.replace(" dogs ", " cat ")}")
+# Important to pay attention to double quotes and single quotes and spaces!
+
+print(f"{text.replace(' dog ' , ' cat ')}")
