@@ -9,7 +9,7 @@ def normalize(sentence):
         sentence_new = sentence[0].capitalize() + sentence[1:].lower() + "!"
         print(sentence_new)
     else:
-        print("try again!")
+        print(sentence[0].capitalize() + sentence[1:] + ".")
 
 normalize(sentence)
 
