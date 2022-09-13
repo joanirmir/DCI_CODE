@@ -20,18 +20,20 @@ print(f"The first white-space character is located at position: {search_space}")
 
 text = "Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital."
 
-print(re.search("Frankfur", text))
+print(re.search("Frankfur", text))'''
 
 
 # Task 3 
 
 text = "Berlin is a city of culture."
 
-splitted_text = re.split(" ", text)
+whitespace = r"\s+" # Regular expression that matches each white space
 
-print(splitted_text)
+replaced = re.sub(whitespace, "-", text) # Replace all matches with an hyphen
 
+print(replaced)
 
+'''
 # Task 4
 
 text = "Berlin is a city of culture."
@@ -51,7 +53,7 @@ x = re.match(pattern, text).start() # .start() says the start of the index
 y = re.match(pattern, text).end()  # .end() says the end of the index
 
 print(f"{x}, {y}")
-'''
+
 # Task 6
 
 text = "The rain in Spain."
@@ -64,4 +66,4 @@ print(x)
 
 times = len(re.findall(pattern, text)) # To count a regex pattern mulitple times in a given string, use the method len(re.findall(pattern, string))
 
-print(times)
+print(times)'''
