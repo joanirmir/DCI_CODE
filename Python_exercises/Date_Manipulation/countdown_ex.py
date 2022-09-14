@@ -11,15 +11,16 @@ import os
 integer = int(input("Enter an integer for your countdown: "))
 
 def countdown(integer):
+
+    os.system("clear")
     
     print(f"Now the countdown begins at: {time.time()}")
-    
-    os.system("clear")
 
     for i in range(integer, 0, -1):
         time.sleep(1)
         print(i)
+        
     
-    print("The countdown is over!")
+    print(f"The countdown is over at: {time.time()}")
 
 countdown(integer)
