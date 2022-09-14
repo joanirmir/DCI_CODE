@@ -5,16 +5,19 @@
 
 # Importing the sleep function from time library
 
-from time import sleep
+import time
+import os 
 
 integer = int(input("Enter an integer for your countdown: "))
 
 def countdown(integer):
     
-    print("Now the countdown begins!")
+    print(f"Now the countdown begins at: {time.time()}")
     
+    os.system("clear")
+
     for i in range(integer, 0, -1):
-        sleep(1)
+        time.sleep(1)
         print(i)
     
     print("The countdown is over!")
