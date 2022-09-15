@@ -67,3 +67,16 @@ print(launch_time.second)
 now = datetime.datetime.today()
 print(now)
 print(now.microsecond)
+
+# Convert Strings to Datetimes
+
+moon_landing = "7/20/1969"
+
+# Convert string to datetime: - Module: datetime - Class: datetime - Method: strptime()
+
+moon_landing_datetime = datetime.datetime.strptime(moon_landing, "%m/%d/%Y")
+
+print(moon_landing_datetime)
+
+print(type(moon_landing_datetime)) # class 'datetime.datetime'
+
