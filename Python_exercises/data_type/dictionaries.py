@@ -37,9 +37,24 @@ for a_tuple in fruit_colors.items():
     x, y = a_tuple
     print(x)
     print(y)
-    print("=" * 10)'''
+    print("=" * 10)
 
 for x, y in fruit_colors.items():
     print(x)
     print(y)
-    print("=" * 10)
+    print("=" * 10)'''
+
+# Puzzle
+
+d = {
+    "soccer": "played with a ball",
+    "paddle": "Fake tennis",
+    "poker": "played in vegas"
+}
+
+# delete a key that ends with "er" by creating a copy of the dictionary with .copy()
+
+for k in d.copy():
+    if k.endswith('er'):
+        del d[k]
+print(d)
