@@ -48,5 +48,27 @@ def sum(lst):
         first = lst.pop(0)
         return first + sum(lst)
 
-print(sum([1,3,5,9]))"""
+print(sum([1,3,5,9]))
 
+# Sometimes you have to write a function in a function
+
+def outter_function():
+    def inner_function():
+        return "I am an inner function"
+
+    return inner_function()"""
+
+# Think python - example
+# 5.8 Recursion
+# It is also legal for a function to call itself
+
+# Example one:
+def countdown(n):
+    if n <= 0:
+        print('Blastoff!')
+    else:
+        print(n)
+        countdown(n-1)
+
+print(countdown(3))
+    
