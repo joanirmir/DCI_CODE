@@ -56,7 +56,7 @@ def outter_function():
     def inner_function():
         return "I am an inner function"
 
-    return inner_function()"""
+    return inner_function()
 
 # Think python - example
 # 5.8 Recursion
@@ -71,4 +71,25 @@ def countdown(n):
         countdown(n-1)
 
 print(countdown(3))
-    
+
+# Example two:
+
+def print_n(s, n):
+    if n <= 0:
+        return # if n <= 0 the return statement exits the function
+    print(s)
+    print(s, n-1)
+
+print(print_n("Hello", 4))"""
+
+def add_a_greeting(name):
+    return "Good morning " + name
+
+def do_n(func, n):
+    if n == 0:
+        return "End"
+    else:
+        print(func)
+        return do_n(func, n-1)
+
+print(do_n(add_a_greeting('John'), 7))
